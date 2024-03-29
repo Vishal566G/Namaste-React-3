@@ -6,11 +6,13 @@ import ReactDOM from "react-dom/client";
 // JSX => Babel transpiles it into React.createElement => ReactElement-JS Object => HTMLElement(render)
 
 // React Element
-const jsxHeading = (
-  <h1 className="halo" tabIndex="7">
-    This is using Jsx
-  </h1>
+const JsxHeading = (
+    <h1 className="halo" tabIndex="7">
+      This is using Jsx
+    </h1>
 );
+
+const Helo = (<>Santuryy!!</>);
 
 // React Components :-
 // Class Based Component - Old
@@ -20,6 +22,7 @@ const jsxHeading = (
 const HeadingComponent = () => {
   return (
     <div>
+      {Helo}
       <h1>Namaste React using Functional component</h1>
     </div>
   );
